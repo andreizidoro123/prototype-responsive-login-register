@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+ <div class="container">
+    <div class="trocar">
+        <button onclick="mudarParaRegister()" class="troca">REGISTRAR</button>
+    </div>
+    <div class="formulario">
+        <form id="loginForm" class="logar">
+            <h2>LOGIN</h2>
+            <input type="text" placeholder="Insira seu nome de usuário" name="usuariologin" id="usuarioLogin">
+            <input type="password" placeholder="Insira sua senha" name="senhalogin" id="senhaLogin">
+            <button type="submit">Entrar</button>
+        </form>
+        <form id="registerForm" style="display: none;">
+            <h2>REGISTRAR</h2>
+            <input type="text" placeholder="Insira seu nome de usuário" name="usuarioregistro" id="usuarioRegistro">
+            <input type="email" placeholder="Insira seu E-mail" name="" id="">
+            <input type="password" placeholder="Insira sua senha" name="" id="">
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+ </div>
+</body>
+<script src="scripts.js"></script>
+</html>
